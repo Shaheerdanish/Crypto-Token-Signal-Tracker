@@ -1,0 +1,6 @@
+# Generate the requirements file for the cloud server
+pip freeze > requirements.txt
+
+# Create a .gitignore file to prevent pushing the virtual environment
+echo venv/ > .gitignore
+echo __pycache__/ >> .gitignore
